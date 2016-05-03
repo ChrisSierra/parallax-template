@@ -3,6 +3,15 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+#getStartedButton:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #00E5FE;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #00E5FE;
+}
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -2150,9 +2159,10 @@
 .white {
   background-color: #FFFFFF !important;
 }
+<!--- here -->
 
 .white-text {
-  color: #FFFFFF !important;
+  color: white; !important;
 }
 
 .transparent {
@@ -2261,6 +2271,7 @@ html {
  */
 body {
   margin: 0;
+  height: 100%;
 }
 
 /* HTML5 display definitions
@@ -4907,7 +4918,10 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+/*  background-color: #bb2b39;*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
 }
 
 .btn-floating {
