@@ -6,10 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-nav {
-  position: fixed;
-  z-index: 10;
-}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -38,7 +34,6 @@ p {
     position: absolute;
     top: 40%;
   }
-
   #index-banner .section {
     top: 10%;
   }
@@ -60,3 +55,53 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/* my code */
+
+#navigationBar {
+  position: fixed;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
+  font-size: 2em;
+  height: 1.5em;
+  width: 100%;
+  z-index: 10;
+}
+
+#navigationBar ul {
+  margin-left: 1em;
+}
+
+#navigationBar li {
+  padding-right: 1em;
+  display: inline;
+  position: relative;
+  top: -1.15em;
+}
+
+.cyanAccent3 {
+  background-color: rgba(0, 229, 255, 0.9);
+  color: white;
+}
+
+.cyanLight4 {
+  color: #b2ebf2;
+}
+
+.article {
+  background-color: rgba(0, 96, 100, 0.6);
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.lg-icon {
+  font-size: 1em;
+  color: #b2ebf2;
+}
+
+.cyan {
+  color: #00bcd4;
+}
+
+
+
